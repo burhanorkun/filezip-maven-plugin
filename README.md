@@ -10,7 +10,7 @@ In pom.xml, let us add the following section.
 <build>
         <plugins>
             <plugin>
-                <groupId>com.techshard</groupId>
+                <groupId>com.orkun</groupId>
                 <artifactId>filezip-maven-plugin</artifactId>
                 <version>1.0-SNAPSHOT</version>
                 <executions>
