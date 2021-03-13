@@ -141,6 +141,23 @@
                 </executions>
             </plugin>
 
+            <plugin>
+                <groupId>com.orkun</groupId>
+                <artifactId>filezip-maven-plugin</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <executions>
+                    <execution>
+                        <configuration>
+                            <input>${project.basedir}/src/main/resources</input>
+                            <zipName>test</zipName>
+                        </configuration>
+                        <goals>
+                            <goal>zip</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
         </plugins>
     </build>
 
